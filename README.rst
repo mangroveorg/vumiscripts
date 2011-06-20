@@ -12,6 +12,7 @@ The easiest way to get Vumi up & running is by using VirtualBox_ and Vagrant_:
         2. copy vumiscripts/vumi.pp to vumi/puppet/manifests/vumi.pp
         3. copy vumiscripts/supervisord.datawinner.conf to vumi/supervisord.datawinner.conf
         4. copy datawinner_airtel_mad_1_smpp.yaml and datawinner_airtel_mad_2_smpp.yaml to vumi/config directory
+        5. Change the POST_TO_URL in datawinner_airtel_mad_1_smpp.yaml & datawinner_airtel_mad_1_smpp.yaml to point to datawinner webserver
     6. Execute `vagrant up`, this will take some time to complete as it
         1. Downloads a 480MB Ubuntu 10.04 server VM
         2. Downloads ~ 40MB worth of Python packages
